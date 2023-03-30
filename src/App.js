@@ -1,4 +1,5 @@
 import {
+  HashRouter,
   BrowserRouter as Router,
   Routes,
   Route,
@@ -16,7 +17,7 @@ function App() {
   const { user } = useContext(AuthContext)
 
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route exact path='/' element={user ? <Home /> : <Register />} />
         <Route path='/login' element={user ? <Navigate to='/' /> : <Login />} />
@@ -30,7 +31,7 @@ function App() {
         />
         <Route path='/profile/:username' element={<Profile />} />
       </Routes>
-    </Router>
+    </HashRouter>
   )
 }
 
