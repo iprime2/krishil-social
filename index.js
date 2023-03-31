@@ -1,6 +1,6 @@
 const io = require('socket.io')({
   cors: {
-    origin: ['http://localhost:3000','https://sushil-krishilsocial.on.fleek.co'],
+    origin: 'http://localhost:3000',
   },
 })
 
