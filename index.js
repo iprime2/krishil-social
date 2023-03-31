@@ -64,7 +64,11 @@ app.use('/api/messages', messageRoute)
 // SERVER
 const start = async () => {
   try {
-    await connectDB(process.env.MONGO_URL)
+    await mongoose.connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+    //connectDB(process.env.MONGO_URL)
     app.listen(process.env.PORT || 8800, () => {
       console.log('Server running on : ' + process.env.PORT)
     })
