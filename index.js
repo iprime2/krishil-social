@@ -16,7 +16,7 @@ const corsOptions = {
 }
 
 // db connection
-const connectDB = require('./db/dbConnect')
+// const connectDB = require('./db/dbConnect')
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
