@@ -17,12 +17,12 @@ const Messenger = () => {
   const [arrivalMessage, setArrivalMessage] = useState(null)
   const [onlineUsers, setOnlineUsers] = useState([])
   const scrollRef = useRef()
-  const socket = useRef(io('ws://krishilsocial-socket.onrender.com:8900'))
+  const socket = useRef(io('ws://krishilsocial-socket.onrender.com'))
 
   const { user } = useContext(AuthContext)
 
   useEffect(() => {
-    socket.current = io('ws://krishilsocial-socket.onrender.com:8900')
+    socket.current = io('ws://krishilsocial-socket.onrender.com')
     socket.current.on('getMessage', (data) => {
       setArrivalMessage({
         sender: data.senderId,
