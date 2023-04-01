@@ -20,6 +20,8 @@ const getUser = (userId) => {
   return users.find((user) => user.userId === userId)
 }
 
+console.log('running')
+
 // when user is logged In
 io.on('connection', (socket) => {
   console.log('a user connected')
