@@ -45,3 +45,7 @@ io.on('connection', (socket) => {
     io.emit('getUsers', users)
   })
 })
+
+socket.on("connect_error", (err) => {
+  console.log(`connect_error due to ${err.message}`);
+});
