@@ -1,4 +1,5 @@
 const io = require('socket.io')(8900, {
+  allowEIO3: true,
   cors: {
     origin: 'http://localhost:3000',
   },
@@ -44,8 +45,10 @@ io.on('connection', (socket) => {
     removeUser(socket.id)
     io.emit('getUsers', users)
   })
-})
-
-socket.on("connect_error", (err) => {
+  
+  socket.on("connect_error", (err) => {
   console.log(`connect_error due to ${err.message}`);
 });
+})
+
+
