@@ -1,3 +1,18 @@
+######################################################################################
+
+I have created this simple social media webapp by using MERN Stack.
+
+Basically it is the facebook clone but in this webapp you can register new user, post picture , follow and unfollow your friends and chat online with your friends.
+
+I am still working on this project to add new features like updating profile picture and cover picture.
+The online chatting function is not working now because I was unable to host socket io server deploy on front end webapp.
+
+Link to my webapp: https://sushil-krishilsocial.on.fleek.co/
+
+You can take a look at my webapp by clicking the link above.
+
+######################################################################################
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
