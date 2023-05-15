@@ -2,10 +2,11 @@
 
 I have created this simple social media webapp by using MERN Stack.
 
-Basically it is the facebook clone but in this webapp you can register new user, post picture , follow and unfollow your friends and chat online with your friends.
+Basically it is the facebook clone, in this webapp you can register new user, post picture , follow and unfollow your friends and chat online with your friends.
 
 I am still working on this project to add new features like updating profile picture and cover picture.
-The online chatting function is not working now because I was unable to host socket io server deploy on front end webapp.
+
+The online chatting function is not working now because I was unable to deploy socket io server still working on it.
 
 Link to my webapp: https://sushil-krishilsocial.on.fleek.co
 
