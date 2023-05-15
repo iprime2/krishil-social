@@ -7,7 +7,11 @@ Basically it is the facebook clone but in this webapp you can register new user,
 I am still working on this project to add new features like updating profile picture and cover picture.
 The online chatting function is not working now because I was unable to host socket io server deploy on front end webapp.
 
-Link to my webapp: https://sushil-krishilsocial.on.fleek.co/
+Link to my webapp: https://sushil-krishilsocial.on.fleek.co
+
+![Screenshot](social.png)
+![Screenshot](social2.png)
+![Screenshot](socialsignup.png)
 
 You can take a look at my webapp by clicking the link above.
 
