@@ -1,4 +1,7 @@
-######################################################################################
+
+# MERN Stack Projects
+
+## Social Media Clone
 
 I have created this simple social media webapp by using MERN Stack.
 
