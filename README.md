@@ -1,21 +1,19 @@
-# MERN Stack Netflix Clone with MangoDB, Express.js, React, Node.js, Express.js, SASS, and Material UI.
+# MERN Stack Facebook Clone with React, Node.js, Express.js, Axios, React Router, MangoDB, SASS, and Material UI
 
 ### https://sushil-krishilsocial.on.fleek.co
 
 ### Feature
 
 - Full responsiveness
-- Slider movies or tv series list
-- Watch movies and TV series
-- Filter movies and TV series with a specific genre
-- Sign up and login 
+- Share post with your Friends
+- Follow and unfollow your Friends
+- 
 
 ### Upcoming feature
 
 - update profile picture and user details
 - reset password
-- Add movie or tv series to your list
-- movie recommendation for user
+- Messenger feature
 
 ## Screenshot
 
