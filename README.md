@@ -28,7 +28,7 @@
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/iprime2/netflix-clone-frontend
+git clone https://github.com/iprime2/krishil-social
 ```
 
 ### Install packages
